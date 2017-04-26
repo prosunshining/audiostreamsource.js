@@ -310,9 +310,9 @@
       var req = new XMLHttpRequest();
       req.open("GET", lofiSrc || src, true);
       req.responseType = "arraybuffer";
-      if (crossOrigin !== undefined) {
-        req.withCredentials = true;
-      }
+//       if (crossOrigin !== undefined) {
+//         req.withCredentials = true;
+//       }
       req.addEventListener('error', function(e) {
         emit('error', e);
       });

@@ -311,7 +311,7 @@
       req.open("GET", lofiSrc || src, true);
       req.responseType = "arraybuffer";
       if (crossOrigin !== undefined) {
-        req.withCredentials = true;
+//         req.withCredentials = true;
       }
       req.addEventListener('error', function(e) {
         emit('error', e);

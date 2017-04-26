@@ -1,9 +1,10 @@
 {
   "name": "audiostreamsource.js",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "homepage": "http://github.com/greggman/audiostreamsource.js",
   "authors": [
-    "Gregg Tavares <github@greggman.com>"
+    "Gregg Tavares <github@greggman.com>",
+    "Krit Tylor <krittylor@gmail.com>"
   ],
   "description": "Provides a streamed audio source for WebAudio across browsers",
   "main": "dist/audiostreamsource-min.js",
